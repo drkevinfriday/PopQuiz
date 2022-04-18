@@ -1,8 +1,9 @@
-.intro, .quiz, .question, .answerList {
+.rightOrWrong, .intro, .quiz, .question, .answerList{
     text-align: center;
     justify-content: center;
     margin: 50px;
 }
+
 
 
 .answerList{
@@ -23,10 +24,11 @@
     border: grey solid 3px;
 
 }
-.topScore, .timer{
+
+.topScore, .timer, .rightOrWrong{
     background-color: white;
     border: black solid 3px;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 

@@ -76,6 +76,7 @@ var answerThreeEl = document.querySelector(".answerThree")
 var answerFourEl = document.querySelector(".answerFour")
 var highScorceListEL = document.querySelector(".high-score-list")
 var topEl = document.querySelector(".top")
+var rightOrWrongEl = document.querySelector(".rightOrWrong")
 // button Doms
 var startBtnEl = document.querySelector(".startBtn")
 var submitBtnEl = document.querySelector(".submitBtn")
@@ -263,6 +264,8 @@ console.log(listQuestions[currentQuestion])
   if (thisAnswer.textContent === listQuestions[currentQuestion].correctAnswer){
 
 
+    rightOrWrongEl.textContent = "Correct"
+
     console.log("The correct answer " + listQuestions[currentQuestion].correctAnswer)
 
     // moves to the next question 
@@ -275,6 +278,8 @@ console.log(listQuestions[currentQuestion])
 
   }
   else{
+
+    rightOrWrongEl.textContent= "Wrong"
 
     console.log("This answer is wroong" )
     //subtracts time for wrong answer.

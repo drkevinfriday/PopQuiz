@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pop Quiz</title>
+</head>
+<header>
+<nav>
+    <div class="container">
+        <div class="row">
+            <div class="topScore  col-3
+             ">HighScores</div>
+            <div class="timer  col-6">Timer</div>
+        </div>
+    </div>
+</header>
+<body>
+    <main>
+        <div class="container">
+            <section class="top">
+                <section class="intro">
+                    <div class="Welcome">
+                        <h1>Welcome to the pop</h1>
+                        <article id="title">
+                            Welcome to kevin color quiz! You have 60 seconds to complete the quiz. Be aware every incorrect answer will cost you 10 seconds!
+                        </article>
+                        <button type="button" class="btn btn-primary startBtn">Start</button>
+                    </div>               
+                </section>
+
+                <section class="quiz ">
+                    
+                    
+                    <div class="question"></div>
+                    <div class="answerList col-3 ">
+                        <p id=choice class="answerOne"></p>
+                        <p id=choice class="answerTwo"></p>
+                        <p id=choice class="answerThree"></p>
+                        <p id=choice class="answerFour"></p>
+                    </div>
+
+                    
+                </section>
+            </section>
+            
+
+
+                <section class = "results" >
+                    
+                        <h2 class="result-title">Your Score</h2>   
+                        <p class="score"></p>                 
+                        <p>Save your score</p>
+                        
+                        <input  class= "userName" type="text" placeholder="Enter name"> 
+                        <!-- This is the submit button -->
+                        <button type="button" class="btn btn-primary submitBtn">submit</button>
+                        
+       
+                </section>
+
+                <section class="listScores">
+                    <div>
+                        <h2>High Scorce List</h2>
+                        <ul class="high-score-list"></ul>
+
+                        <button type="button" class="btn btn-primary goBackBtn">Go Back</button>
+                        <button type="button" class="btn btn-primary resetBtn">Reset Score</button>
+                    </div>
+
+                </section>
+                
+               
+               
+           
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.intro, .quiz, .question, .answerList {
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.answerList{
+    display: flex;
+    flex-direction: column;  
+}
+.question{
+    font-size: 40px;
+}
+#choice{
+    background-color: white;
+    border: black solid 3px;
+
+}
+
+#choice:hover{
+    background-color: green;
+    border: grey solid 3px;
+
+}
+.topScore, .timer{
+    background-color: white;
+    border: black solid 3px;
+    text-align: center;
+    margin: 10px;
+}
+

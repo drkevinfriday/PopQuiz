@@ -1,2 +1,2 @@
-# Popquiz
-My quiz app
+# PopQuiz
+

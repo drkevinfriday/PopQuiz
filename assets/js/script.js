@@ -17,32 +17,32 @@ currentQuestion = 0
 // create var object  with 4 questions
 var sunQuestion = 
     {
-    question: "what color is the sun ",
-    answers: ["red", "blue", "orange", "purple"],
-    correctAnswer: "orange"
+    question: "What color is the sun? ",
+    answers: ["Red", "Blue", "Orange", "Purple"],
+    correctAnswer: "Orange"
     
 }
 var moonQuestion = 
     {
-    question: "what color is the moon ",
-    answers: ["red", "blue", "orange", "white"],
-    correctAnswer: "white"
+    question: "What color is the moon?",
+    answers: ["Red", "Blue", "Orange", "White"],
+    correctAnswer: "White"
     
 }
 
 var signQuestion = 
     {
-    question: "what color is a sto sign ",
-    answers: ["red", "blue", "orange", "purple"],
-    correctAnswer: "red"
+    question: "What color is a stop sign ?",
+    answers: ["Red", "Blue", "Orange", "Purple"],
+    correctAnswer: "Red"
     
 }
 
 var footallQuestion = 
     {
-    question: "what color is football ",
-    answers: ["red", "blue", "orange", "brown"],
-    correctAnswer: "brown"
+    question: "What color is football ?",
+    answers: ["Red", "Blue", "Orange", "Brown"],
+    correctAnswer: "Brown"
     
 }
 
